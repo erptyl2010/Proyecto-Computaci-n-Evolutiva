@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-18T03:24:01.364260+00:00",
+  "pdf_sha256": "6b025c59d8967a3bda11428e7eb7c73a8d4570e79d3ca2580221ceabe17507c4",
+  "pages": 13,
+  "visual_review": {
+    "rendering": "Poppler, 105 dpi",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "result": "Sin recortes, superposiciones ni páginas vacías observados; figuras y tablas legibles."
+  },
+  "text_checks": [
+    "Tres integrantes indicados por el usuario",
+    "URL del repositorio",
+    "122 tablas de reproducción",
+    "13 páginas, dentro de la extensión aproximada de 15"
+  ],
+  "scope": "Verificación de contenido presente y presentación visual; no sustituye la auditoría numérica."
+}

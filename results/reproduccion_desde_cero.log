@@ -1,0 +1,147 @@
+{
+  "cohort_api_ids": 4308,
+  "measurements_audited": 51867,
+  "accepted_measurements": {
+    "MIC": 2069,
+    "HC50": 202
+  },
+  "chemical_entities": {
+    "MIC": 1473,
+    "HC50": 199
+  },
+  "exclusion_reasons": {
+    "otro_objetivo_biologico": 35378,
+    "unidad_no_micromolar": 1665,
+    "otra_medida": 3134,
+    "quimica_no_representada": 7457,
+    "concentracion_no_puntual_positiva": 906,
+    "terminal_no_representado": 1056
+  },
+  "aggregation": "Mediana de mediciones puntuales por secuencia y anotaciones terminales, combinando IDs equivalentes. Las condiciones no se armonizan.",
+  "scope": "Todos los IDs devueltos por el filtro declarado. HC50 se extrae de esta misma cohorte; no reproduce el conjunto historico de 181/153 registros.",
+  "reference_mapping": "article_ids_all incluye todos los articulos de la ficha. reference_raw conserva la referencia de la medicion; no se asume una correspondencia no verificada."
+}
+objective representation  n_features  n_entities  n_train  n_holdout  n_groups  mae_log10  r2_log10  mae_baseline_log10  shared_article_ids_train_holdout  shared_publications_train_holdout
+      MIC        ordered          42        1473     1160        313       818    0.37114  0.262163            0.433486                                 0                                133
+     HC50        ordered          42         199      167         32       112    0.41843  0.059036            0.462394                                 0                                  9
+NSGA-II seed=201 pop=30 mut=0.04762 cross=0.90: HV=100.0000% (1.67s)
+NSGA-II seed=202 pop=30 mut=0.04762 cross=0.90: HV=97.2804% (2.90s)
+NSGA-II seed=203 pop=30 mut=0.04762 cross=0.90: HV=99.3892% (2.94s)
+NSGA-II seed=204 pop=30 mut=0.04762 cross=0.90: HV=92.9763% (3.38s)
+NSGA-II seed=205 pop=30 mut=0.04762 cross=0.90: HV=99.5526% (2.73s)
+NSGA-II seed=201 pop=60 mut=0.04762 cross=0.90: HV=95.4708% (1.67s)
+NSGA-II seed=202 pop=60 mut=0.04762 cross=0.90: HV=99.6908% (1.68s)
+NSGA-II seed=203 pop=60 mut=0.04762 cross=0.90: HV=99.4249% (1.61s)
+NSGA-II seed=204 pop=60 mut=0.04762 cross=0.90: HV=97.3004% (1.74s)
+NSGA-II seed=205 pop=60 mut=0.04762 cross=0.90: HV=99.7125% (1.57s)
+NSGA-II seed=201 pop=100 mut=0.04762 cross=0.90: HV=95.3487% (1.11s)
+NSGA-II seed=202 pop=100 mut=0.04762 cross=0.90: HV=99.9625% (1.20s)
+NSGA-II seed=203 pop=100 mut=0.04762 cross=0.90: HV=95.9872% (1.05s)
+NSGA-II seed=204 pop=100 mut=0.04762 cross=0.90: HV=97.4955% (1.08s)
+NSGA-II seed=205 pop=100 mut=0.04762 cross=0.90: HV=99.6690% (1.11s)
+NSGA-II seed=201 pop=60 mut=0.02381 cross=0.90: HV=97.8180% (1.68s)
+NSGA-II seed=202 pop=60 mut=0.02381 cross=0.90: HV=99.5420% (1.67s)
+NSGA-II seed=203 pop=60 mut=0.02381 cross=0.90: HV=99.5299% (1.77s)
+NSGA-II seed=204 pop=60 mut=0.02381 cross=0.90: HV=99.3916% (1.84s)
+NSGA-II seed=205 pop=60 mut=0.02381 cross=0.90: HV=99.9894% (1.68s)
+NSGA-II seed=201 pop=60 mut=0.09524 cross=0.90: HV=97.5650% (1.17s)
+NSGA-II seed=202 pop=60 mut=0.09524 cross=0.90: HV=95.9403% (1.36s)
+NSGA-II seed=203 pop=60 mut=0.09524 cross=0.90: HV=99.0943% (1.61s)
+NSGA-II seed=204 pop=60 mut=0.09524 cross=0.90: HV=99.5299% (1.38s)
+NSGA-II seed=205 pop=60 mut=0.09524 cross=0.90: HV=99.9535% (1.52s)
+NSGA-II seed=201 pop=60 mut=0.02381 cross=0.50: HV=99.4247% (1.75s)
+NSGA-II seed=202 pop=60 mut=0.02381 cross=0.50: HV=99.5063% (1.94s)
+NSGA-II seed=203 pop=60 mut=0.02381 cross=0.50: HV=99.4128% (1.78s)
+NSGA-II seed=204 pop=60 mut=0.02381 cross=0.50: HV=99.3603% (1.71s)
+NSGA-II seed=205 pop=60 mut=0.02381 cross=0.50: HV=99.9894% (1.70s)
+NSGA-II seed=201 pop=60 mut=0.02381 cross=0.70: HV=99.6690% (1.88s)
+NSGA-II seed=202 pop=60 mut=0.02381 cross=0.70: HV=100.0000% (2.02s)
+NSGA-II seed=203 pop=60 mut=0.02381 cross=0.70: HV=99.5299% (1.79s)
+NSGA-II seed=204 pop=60 mut=0.02381 cross=0.70: HV=99.7126% (1.64s)
+NSGA-II seed=205 pop=60 mut=0.02381 cross=0.70: HV=99.5526% (1.66s)
+NSGA-II seed=401 pop=60 mut=0.02381 cross=0.70: HV=99.3204% (1.26s)
+Aleatoria seed=401 pop=60 mut=0.02381 cross=0.70: HV=85.5897% (1.02s)
+Aleatoria seed=402 pop=60 mut=0.02381 cross=0.70: HV=87.1075% (1.09s)
+NSGA-II seed=402 pop=60 mut=0.02381 cross=0.70: HV=99.9894% (1.79s)
+NSGA-II seed=403 pop=60 mut=0.02381 cross=0.70: HV=99.5299% (1.80s)
+Aleatoria seed=403 pop=60 mut=0.02381 cross=0.70: HV=87.2608% (1.11s)
+Aleatoria seed=404 pop=60 mut=0.02381 cross=0.70: HV=86.7161% (1.07s)
+NSGA-II seed=404 pop=60 mut=0.02381 cross=0.70: HV=99.9894% (1.97s)
+NSGA-II seed=405 pop=60 mut=0.02381 cross=0.70: HV=99.4627% (1.80s)
+Aleatoria seed=405 pop=60 mut=0.02381 cross=0.70: HV=85.4643% (1.21s)
+Aleatoria seed=406 pop=60 mut=0.02381 cross=0.70: HV=88.6133% (1.13s)
+NSGA-II seed=406 pop=60 mut=0.02381 cross=0.70: HV=97.3629% (1.93s)
+NSGA-II seed=407 pop=60 mut=0.02381 cross=0.70: HV=99.4521% (1.69s)
+Aleatoria seed=407 pop=60 mut=0.02381 cross=0.70: HV=88.0039% (1.12s)
+Aleatoria seed=408 pop=60 mut=0.02381 cross=0.70: HV=89.0473% (1.19s)
+NSGA-II seed=408 pop=60 mut=0.02381 cross=0.70: HV=95.3784% (1.89s)
+NSGA-II seed=409 pop=60 mut=0.02381 cross=0.70: HV=99.5420% (1.96s)
+Aleatoria seed=409 pop=60 mut=0.02381 cross=0.70: HV=86.3623% (1.05s)
+Aleatoria seed=410 pop=60 mut=0.02381 cross=0.70: HV=88.9652% (1.04s)
+NSGA-II seed=410 pop=60 mut=0.02381 cross=0.70: HV=99.1260% (1.84s)
+{
+  "selected_configuration": {
+    "population": 60,
+    "mutation": 0.023809523809523808,
+    "crossover": 0.7
+  },
+  "selection_steps": [
+    {
+      "parameter": "population",
+      "selected": 60,
+      "reason": "Mayor media de HV; desempate por menor desviacion y menor valor."
+    },
+    {
+      "parameter": "mutation",
+      "selected": 0.023809523809523808,
+      "reason": "Mayor media de HV; desempate por menor desviacion y menor valor."
+    },
+    {
+      "parameter": "crossover",
+      "selected": 0.7,
+      "reason": "Mayor media de HV; desempate por menor desviacion y menor valor."
+    }
+  ],
+  "tuning_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "final_seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "sensitivity_design": "Un factor a la vez, secuencial; no estima interacciones ni garantiza optimo global de parametros.",
+  "paired_mean_difference_percentage_points": 11.602297358151962,
+  "paired_bootstrap_95_percent_interval": [
+    10.028935644980569,
+    12.949087957114108
+  ],
+  "wilcoxon_alternative": "greater: NSGA-II > aleatoria; hipotesis fijada antes de ejecutar",
+  "wilcoxon_pvalue": 0.0009765625,
+  "n_paired_seeds": 10,
+  "scope": "Variabilidad de busqueda en un unico paisaje predicho congelado; no incluye incertidumbre de entrenamiento o medicion.",
+  "per_method": {
+    "Aleatoria": {
+      "mean_hv_percent": 87.31302823904872,
+      "std_hv_percent_ddof1": 1.3164917778814644,
+      "mean_seconds": 1.104074970021611
+    },
+    "NSGA-II": {
+      "mean_hv_percent": 98.91532559720069,
+      "std_hv_percent_ddof1": 1.4450776381288455,
+      "mean_seconds": 1.7919543100055306
+    }
+  }
+}
+Informe y seis figuras generados desde resultados verificados.

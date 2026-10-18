@@ -1,0 +1,25 @@
+{
+  "base": "GFMKYIKPLIPHAVKAIKKLI",
+  "n_sequences": 76210,
+  "n_front_sequences": 6,
+  "n_front_objective_pairs": 6,
+  "reference_point": [
+    1.8458446730452975,
+    -0.9518349864408436
+  ],
+  "hv_exhaustive": 1.861696834936878,
+  "feature_preparation_seconds": 25.67211019998649,
+  "exhaustive_prediction_seconds": 0.8416806000168435,
+  "oracle_scope": "Optimo respecto a los dos modelos congelados, no respecto a resultados biologicos.",
+  "terminal_context": "SIN_ANOTACION en ambos extremos; no equivale a demostrar grupos terminales libres.",
+  "budget": 2100,
+  "base_prediction": {
+    "sequence": "GFMKYIKPLIPHAVKAIKKLI",
+    "pred_log10_MIC": 0.8927254751899916,
+    "pred_log10_HC50": 1.935762413682679,
+    "pred_MIC_uM": 7.811338806975906,
+    "pred_HC50_uM": 86.25065734932797,
+    "n_changes": 0,
+    "nondominated": false
+  }
+}

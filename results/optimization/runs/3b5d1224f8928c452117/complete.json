@@ -1,0 +1,30 @@
+{
+  "spec": {
+    "method": "Aleatoria",
+    "seed": 410,
+    "population": 60,
+    "mutation": 0.023809523809523808,
+    "crossover": 0.7,
+    "budget": 2100,
+    "source_sha256": "a206785d0b49639b9b6308d854a4425f24da2261b206f4c27844d4e727a6005c",
+    "models_sha256": "a63e052b7d2c88bce94d164378fdaec58249500d37f5cc3347009614a764fddd"
+  },
+  "summary": {
+    "method": "Aleatoria",
+    "seed": 410,
+    "population": 60,
+    "mutation": 0.023809523809523808,
+    "crossover": 0.7,
+    "budget": 2100,
+    "unique_evaluations": 2100,
+    "hv_percent": 88.96522785468039,
+    "seconds": 0.7377375999931246,
+    "n_front_sequences": 5,
+    "n_front_objective_pairs": 5,
+    "current_fitness_meaning": "Lote aleatorio recien evaluado; no es una poblacion evolutiva."
+  },
+  "sha256": {
+    "historia.csv": "07e76db1788501e6f0d3f2c157aed73ce3544a8dd59057823e252b0176cc57ba",
+    "evaluaciones.csv": "813d3b5cf253cf6080a086db0bc197f4bd4221f574e0b48fcec12cfaf4eb438c"
+  }
+}

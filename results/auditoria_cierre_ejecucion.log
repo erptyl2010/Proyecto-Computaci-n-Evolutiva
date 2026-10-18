@@ -1,0 +1,400 @@
+{
+  "created_utc": "2026-10-18T03:20:33.035056+00:00",
+  "scope": "Auditoría del experimento computacional; no validación biológica.",
+  "source_tables_sha256": {
+    "comparacion_final.csv": "ff760350653e0cb788ed6e189ea8dd54875b7ab631b7a968bc73fb3411346ed9",
+    "sensibilidad.csv": "1691c960917a5354b29f16cfbf9ae9d9f398bf2daeedb9478dda86aea122edb2",
+    "dominio_exhaustivo.csv": "5bb5b3334cf33b770e4ef01a97038665823eeee7b88f42651c8c0c965942c767"
+  },
+  "paired_difference_recomputed": 11.602297358151963,
+  "wilcoxon_recomputed": 0.0009765625,
+  "sensitivity_summary": [
+    {
+      "sensitivity_parameter": "crossover",
+      "sensitivity_value": 0.5,
+      "mean_hv": 99.53870566940016,
+      "sd_hv": 0.25734432832244286,
+      "mean_seconds": 1.1968659200239926
+    },
+    {
+      "sensitivity_parameter": "crossover",
+      "sensitivity_value": 0.7,
+      "mean_hv": 99.69281658079201,
+      "sd_hv": 0.18810206726427875,
+      "mean_seconds": 1.1929612600128165
+    },
+    {
+      "sensitivity_parameter": "crossover",
+      "sensitivity_value": 0.9,
+      "mean_hv": 99.25418376563748,
+      "sd_hv": 0.8338194199045722,
+      "mean_seconds": 1.1604507199837826
+    },
+    {
+      "sensitivity_parameter": "mutation",
+      "sensitivity_value": 0.0238095238095238,
+      "mean_hv": 99.25418376563748,
+      "sd_hv": 0.8338194199045722,
+      "mean_seconds": 1.1604507199837826
+    },
+    {
+      "sensitivity_parameter": "mutation",
+      "sensitivity_value": 0.0476190476190476,
+      "mean_hv": 98.31988915578435,
+      "sd_hv": 1.883926978023712,
+      "mean_seconds": 1.052425460005179
+    },
+    {
+      "sensitivity_parameter": "mutation",
+      "sensitivity_value": 0.0952380952380952,
+      "mean_hv": 98.41660571427252,
+      "sd_hv": 1.6521098792608822,
+      "mean_seconds": 1.0325450400356204
+    },
+    {
+      "sensitivity_parameter": "population",
+      "sensitivity_value": 30.0,
+      "mean_hv": 97.83970419041381,
+      "sd_hv": 2.914074545479991,
+      "mean_seconds": 2.1106606199988165
+    },
+    {
+      "sensitivity_parameter": "population",
+      "sensitivity_value": 60.0,
+      "mean_hv": 98.31988915578435,
+      "sd_hv": 1.883926978023712,
+      "mean_seconds": 1.052425460005179
+    },
+    {
+      "sensitivity_parameter": "population",
+      "sensitivity_value": 100.0,
+      "mean_hv": 97.69256869660526,
+      "sd_hv": 2.091622273865327,
+      "mean_seconds": 0.841044700006023
+    }
+  ],
+  "cost_accounting": {
+    "tuning_table_rows": 45,
+    "distinct_tuning_runs": 35,
+    "tuning_search_seconds_sum": 42.934768600331154,
+    "final_runs": 20,
+    "final_search_seconds_sum": 19.87063869991107,
+    "distinct_runs_total": 55,
+    "candidate_evaluations_across_runs": 115500,
+    "scalar_model_predictions_across_runs": 231000,
+    "note": "Los conteos suman corridas: una secuencia puede reaparecer en otras semillas. Excluyen el barrido exhaustivo, entrenamiento y preparación."
+  },
+  "convergence": [
+    {
+      "seed": 401,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.3204175938698,
+      "hv_at_1500": 99.24230809929374,
+      "last_600_evaluations_gain_pp": 0.07810949457606853,
+      "last_recorded_improvement_evaluations": 2100,
+      "exact_front_sequences_found": 3
+    },
+    {
+      "seed": 402,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.989448999476,
+      "hv_at_1500": 99.83896160069628,
+      "last_600_evaluations_gain_pp": 0.15048739877971684,
+      "last_recorded_improvement_evaluations": 1980,
+      "exact_front_sequences_found": 5
+    },
+    {
+      "seed": 403,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.52989272265468,
+      "hv_at_1500": 99.45383616630497,
+      "last_600_evaluations_gain_pp": 0.07605655634971242,
+      "last_recorded_improvement_evaluations": 1620,
+      "exact_front_sequences_found": 4
+    },
+    {
+      "seed": 404,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.989448999476,
+      "hv_at_1500": 99.9101315369294,
+      "last_600_evaluations_gain_pp": 0.079317462546598,
+      "last_recorded_improvement_evaluations": 1860,
+      "exact_front_sequences_found": 5
+    },
+    {
+      "seed": 405,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.46272089711712,
+      "hv_at_1500": 99.3456092365836,
+      "last_600_evaluations_gain_pp": 0.11711166053352429,
+      "last_recorded_improvement_evaluations": 1620,
+      "exact_front_sequences_found": 4
+    },
+    {
+      "seed": 406,
+      "generations_including_initial": 35,
+      "final_hv_percent": 97.36285858324456,
+      "hv_at_1500": 97.36285858324456,
+      "last_600_evaluations_gain_pp": 0.0,
+      "last_recorded_improvement_evaluations": 1440,
+      "exact_front_sequences_found": 3
+    },
+    {
+      "seed": 407,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.45208773907576,
+      "hv_at_1500": 99.26183772870232,
+      "last_600_evaluations_gain_pp": 0.1902500103734468,
+      "last_recorded_improvement_evaluations": 2100,
+      "exact_front_sequences_found": 4
+    },
+    {
+      "seed": 408,
+      "generations_including_initial": 35,
+      "final_hv_percent": 95.37838798300989,
+      "hv_at_1500": 95.34872217322498,
+      "last_600_evaluations_gain_pp": 0.029665809784901853,
+      "last_recorded_improvement_evaluations": 1860,
+      "exact_front_sequences_found": 2
+    },
+    {
+      "seed": 409,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.5420383596637,
+      "hv_at_1500": 99.3456092365836,
+      "last_600_evaluations_gain_pp": 0.19642912308010807,
+      "last_recorded_improvement_evaluations": 2100,
+      "exact_front_sequences_found": 4
+    },
+    {
+      "seed": 410,
+      "generations_including_initial": 35,
+      "final_hv_percent": 99.12595409441936,
+      "hv_at_1500": 93.14341202962868,
+      "last_600_evaluations_gain_pp": 5.982542064790678,
+      "last_recorded_improvement_evaluations": 1860,
+      "exact_front_sequences_found": 2
+    }
+  ],
+  "exact_front_recovery": {
+    "reference_sequences": 6,
+    "union_ten_final_nsga_runs": 6,
+    "individual_complete_runs": 0
+  },
+  "posthoc_hv_reference_check": [
+    {
+      "margin": 0.05,
+      "method": "Aleatoria",
+      "hv_percent": 86.37227338859076
+    },
+    {
+      "margin": 0.05,
+      "method": "NSGA-II",
+      "hv_percent": 98.84035219952065
+    },
+    {
+      "margin": 0.15,
+      "method": "Aleatoria",
+      "hv_percent": 87.31302823904872
+    },
+    {
+      "margin": 0.15,
+      "method": "NSGA-II",
+      "hv_percent": 98.91532559720066
+    },
+    {
+      "margin": 0.3,
+      "method": "Aleatoria",
+      "hv_percent": 88.50019970219304
+    },
+    {
+      "margin": 0.3,
+      "method": "NSGA-II",
+      "hv_percent": 99.01113808992336
+    }
+  ],
+  "candidate_presence_in_processed_cohort": [
+    {
+      "objective": "MIC",
+      "sequence": "GRMKYIKPLIPHAVKAIKKAI",
+      "exact_sequence_in_processed_cohort": false,
+      "minimum_hamming_to_same_length_in_cohort": 2
+    },
+    {
+      "objective": "MIC",
+      "sequence": "GRMKYIKPLIPHAVKAKKKLI",
+      "exact_sequence_in_processed_cohort": false,
+      "minimum_hamming_to_same_length_in_cohort": 2
+    },
+    {
+      "objective": "MIC",
+      "sequence": "GRMKRIKPLIPHAVKAIKKLI",
+      "exact_sequence_in_processed_cohort": false,
+      "minimum_hamming_to_same_length_in_cohort": 2
+    },
+    {
+      "objective": "HC50",
+      "sequence": "GRMKYIKPLIPHAVKAIKKAI",
+      "exact_sequence_in_processed_cohort": false,
+      "minimum_hamming_to_same_length_in_cohort": 2
+    },
+    {
+      "objective": "HC50",
+      "sequence": "GRMKYIKPLIPHAVKAKKKLI",
+      "exact_sequence_in_processed_cohort": false,
+      "minimum_hamming_to_same_length_in_cohort": 2
+    },
+    {
+      "objective": "HC50",
+      "sequence": "GRMKRIKPLIPHAVKAIKKLI",
+      "exact_sequence_in_processed_cohort": false,
+      "minimum_hamming_to_same_length_in_cohort": 2
+    }
+  ],
+  "novelty_scope": "La búsqueda de coincidencias solo cubre esta cohorte procesada; no certifica novedad ni dominio de aplicabilidad.",
+  "clean_reproduction": {
+    "status": "verified",
+    "distinct_runs_compared": 55,
+    "tables_compared": 122,
+    "absolute_tolerance": 1e-12,
+    "relative_tolerance": 0,
+    "excluded_time_columns": [
+      "seconds",
+      "elapsed_seconds"
+    ],
+    "model_sha256": "a63e052b7d2c88bce94d164378fdaec58249500d37f5cc3347009614a764fddd",
+    "numerical_sources_sha256": {
+      "run.py": "293d36bc8ea22e1dd4194496fbf06bb7cabd1e9c70400f918a06188a11edcee2",
+      "ce_peptidos/__init__.py": "7c240a1d06b8d90d96686b607999ec41be494a4a85bdb349d86d8af523b32b22",
+      "ce_peptidos/datos.py": "58c4ce11a9419dc2c9e8174b80e1f394cfa943b0472dbffd5fb3dc9af246809d",
+      "ce_peptidos/evolucion.py": "a206785d0b49639b9b6308d854a4425f24da2261b206f4c27844d4e727a6005c",
+      "ce_peptidos/experimentos.py": "e2d51b70eaa2b0d9c89fc1b15a9937b9d148146a6d5627c004f47de68210b032",
+      "ce_peptidos/modelos.py": "ebeb0d6e53751bd0db4944ac9cf9fd1b1c06c62c247b39e4bd9c26ea33e47317"
+    },
+    "checked_tables": [
+      "data/processed/auditoria_mediciones.csv",
+      "data/processed/dataset_HC50.csv",
+      "data/processed/dataset_MIC.csv",
+      "data/processed/mediciones_aceptadas.csv",
+      "results/models/particiones.csv",
+      "results/models/predicciones_reservadas.csv",
+      "results/models/seleccion_representacion_cv.csv",
+      "results/models/validacion_reservada.csv",
+      "results/optimization/dominio_exhaustivo.csv",
+      "results/optimization/comparacion_final.csv",
+      "results/optimization/sensibilidad.csv",
+      "results/optimization/candidatos_encontrados.csv",
+      "results/optimization/runs/0a300c301d7a2b9ce17d/evaluaciones.csv",
+      "results/optimization/runs/0a300c301d7a2b9ce17d/historia.csv",
+      "results/optimization/runs/50706bb9e6b795c17b3b/evaluaciones.csv",
+      "results/optimization/runs/50706bb9e6b795c17b3b/historia.csv",
+      "results/optimization/runs/470d5d0bd75fb0566e9d/evaluaciones.csv",
+      "results/optimization/runs/470d5d0bd75fb0566e9d/historia.csv",
+      "results/optimization/runs/f2b98e2d42d9c956ba68/evaluaciones.csv",
+      "results/optimization/runs/f2b98e2d42d9c956ba68/historia.csv",
+      "results/optimization/runs/04c9e809c57f78edf4f3/evaluaciones.csv",
+      "results/optimization/runs/04c9e809c57f78edf4f3/historia.csv",
+      "results/optimization/runs/18c090f104d8dda0f645/evaluaciones.csv",
+      "results/optimization/runs/18c090f104d8dda0f645/historia.csv",
+      "results/optimization/runs/cb986f4d5338824a53f4/evaluaciones.csv",
+      "results/optimization/runs/cb986f4d5338824a53f4/historia.csv",
+      "results/optimization/runs/939b96cf103b399cb9fc/evaluaciones.csv",
+      "results/optimization/runs/939b96cf103b399cb9fc/historia.csv",
+      "results/optimization/runs/135d588ad2683b25513e/evaluaciones.csv",
+      "results/optimization/runs/135d588ad2683b25513e/historia.csv",
+      "results/optimization/runs/3fe1fad661b331e51e5e/evaluaciones.csv",
+      "results/optimization/runs/3fe1fad661b331e51e5e/historia.csv",
+      "results/optimization/runs/d7bb4635996f490fe67b/evaluaciones.csv",
+      "results/optimization/runs/d7bb4635996f490fe67b/historia.csv",
+      "results/optimization/runs/609f9ee508130cbacf74/evaluaciones.csv",
+      "results/optimization/runs/609f9ee508130cbacf74/historia.csv",
+      "results/optimization/runs/6b57693a0a55867e35a0/evaluaciones.csv",
+      "results/optimization/runs/6b57693a0a55867e35a0/historia.csv",
+      "results/optimization/runs/e26f315e6e9b58fbfc50/evaluaciones.csv",
+      "results/optimization/runs/e26f315e6e9b58fbfc50/historia.csv",
+      "results/optimization/runs/76e9d7e40e483143dba1/evaluaciones.csv",
+      "results/optimization/runs/76e9d7e40e483143dba1/historia.csv",
+      "results/optimization/runs/cfc5b2a0a47d189f692f/evaluaciones.csv",
+      "results/optimization/runs/cfc5b2a0a47d189f692f/historia.csv",
+      "results/optimization/runs/c6e85375bfc3a24bfd49/evaluaciones.csv",
+      "results/optimization/runs/c6e85375bfc3a24bfd49/historia.csv",
+      "results/optimization/runs/72ef4c7b2af1b74e8d4e/evaluaciones.csv",
+      "results/optimization/runs/72ef4c7b2af1b74e8d4e/historia.csv",
+      "results/optimization/runs/a9c7df8d335eb9106616/evaluaciones.csv",
+      "results/optimization/runs/a9c7df8d335eb9106616/historia.csv",
+      "results/optimization/runs/a190a2b0b9f4b1b2edb5/evaluaciones.csv",
+      "results/optimization/runs/a190a2b0b9f4b1b2edb5/historia.csv",
+      "results/optimization/runs/aeb414966c75c472643c/evaluaciones.csv",
+      "results/optimization/runs/aeb414966c75c472643c/historia.csv",
+      "results/optimization/runs/29b58689323b1de8d337/evaluaciones.csv",
+      "results/optimization/runs/29b58689323b1de8d337/historia.csv",
+      "results/optimization/runs/d464d7036ba86270c419/evaluaciones.csv",
+      "results/optimization/runs/d464d7036ba86270c419/historia.csv",
+      "results/optimization/runs/4132e0645b776bb97c1f/evaluaciones.csv",
+      "results/optimization/runs/4132e0645b776bb97c1f/historia.csv",
+      "results/optimization/runs/a6bc33651d2e1ad88734/evaluaciones.csv",
+      "results/optimization/runs/a6bc33651d2e1ad88734/historia.csv",
+      "results/optimization/runs/60fece88f39089823601/evaluaciones.csv",
+      "results/optimization/runs/60fece88f39089823601/historia.csv",
+      "results/optimization/runs/03e50fd4534e3c3c3ef2/evaluaciones.csv",
+      "results/optimization/runs/03e50fd4534e3c3c3ef2/historia.csv",
+      "results/optimization/runs/19d83897a332981077dd/evaluaciones.csv",
+      "results/optimization/runs/19d83897a332981077dd/historia.csv",
+      "results/optimization/runs/462386b805a09b9c8c43/evaluaciones.csv",
+      "results/optimization/runs/462386b805a09b9c8c43/historia.csv",
+      "results/optimization/runs/013e1838c05c1c4cbc1a/evaluaciones.csv",
+      "results/optimization/runs/013e1838c05c1c4cbc1a/historia.csv",
+      "results/optimization/runs/fdf6f23b124be6b8f538/evaluaciones.csv",
+      "results/optimization/runs/fdf6f23b124be6b8f538/historia.csv",
+      "results/optimization/runs/d7f41d00ae188044c294/evaluaciones.csv",
+      "results/optimization/runs/d7f41d00ae188044c294/historia.csv",
+      "results/optimization/runs/9a3124f016525cf12f29/evaluaciones.csv",
+      "results/optimization/runs/9a3124f016525cf12f29/historia.csv",
+      "results/optimization/runs/e0e622c121f0968edb16/evaluaciones.csv",
+      "results/optimization/runs/e0e622c121f0968edb16/historia.csv",
+      "results/optimization/runs/88b99ac4ced852f1beac/evaluaciones.csv",
+      "results/optimization/runs/88b99ac4ced852f1beac/historia.csv",
+      "results/optimization/runs/ade60f4f0322f911a2a1/evaluaciones.csv",
+      "results/optimization/runs/ade60f4f0322f911a2a1/historia.csv",
+      "results/optimization/runs/b61c246efb1a09433a79/evaluaciones.csv",
+      "results/optimization/runs/b61c246efb1a09433a79/historia.csv",
+      "results/optimization/runs/6a3a25ad0dcc9a478ac8/evaluaciones.csv",
+      "results/optimization/runs/6a3a25ad0dcc9a478ac8/historia.csv",
+      "results/optimization/runs/f31101d6d068961b8631/evaluaciones.csv",
+      "results/optimization/runs/f31101d6d068961b8631/historia.csv",
+      "results/optimization/runs/4671c62b8234bb3286c1/evaluaciones.csv",
+      "results/optimization/runs/4671c62b8234bb3286c1/historia.csv",
+      "results/optimization/runs/f84507458d54dc3dd9f2/evaluaciones.csv",
+      "results/optimization/runs/f84507458d54dc3dd9f2/historia.csv",
+      "results/optimization/runs/60b5a4f5c2ec0bafcfa9/evaluaciones.csv",
+      "results/optimization/runs/60b5a4f5c2ec0bafcfa9/historia.csv",
+      "results/optimization/runs/001fae77c5e2156128d7/evaluaciones.csv",
+      "results/optimization/runs/001fae77c5e2156128d7/historia.csv",
+      "results/optimization/runs/a4271555a44935497bf3/evaluaciones.csv",
+      "results/optimization/runs/a4271555a44935497bf3/historia.csv",
+      "results/optimization/runs/c88b649d33b35ef3176a/evaluaciones.csv",
+      "results/optimization/runs/c88b649d33b35ef3176a/historia.csv",
+      "results/optimization/runs/d96e48737e7d0324dfc4/evaluaciones.csv",
+      "results/optimization/runs/d96e48737e7d0324dfc4/historia.csv",
+      "results/optimization/runs/2d81cd9dcf2f5473fac3/evaluaciones.csv",
+      "results/optimization/runs/2d81cd9dcf2f5473fac3/historia.csv",
+      "results/optimization/runs/3050a403cc7f5d5380d9/evaluaciones.csv",
+      "results/optimization/runs/3050a403cc7f5d5380d9/historia.csv",
+      "results/optimization/runs/d6b91e64a3247f533ace/evaluaciones.csv",
+      "results/optimization/runs/d6b91e64a3247f533ace/historia.csv",
+      "results/optimization/runs/10d003e0b4099fdd725a/evaluaciones.csv",
+      "results/optimization/runs/10d003e0b4099fdd725a/historia.csv",
+      "results/optimization/runs/e6eb8b848aeaee26273d/evaluaciones.csv",
+      "results/optimization/runs/e6eb8b848aeaee26273d/historia.csv",
+      "results/optimization/runs/2d80f3b718c87be2718d/evaluaciones.csv",
+      "results/optimization/runs/2d80f3b718c87be2718d/historia.csv",
+      "results/optimization/runs/9e7ece0dcfd16741f970/evaluaciones.csv",
+      "results/optimization/runs/9e7ece0dcfd16741f970/historia.csv",
+      "results/optimization/runs/3b5d1224f8928c452117/evaluaciones.csv",
+      "results/optimization/runs/3b5d1224f8928c452117/historia.csv",
+      "results/optimization/runs/f0dbecc6655d69da6dbb/evaluaciones.csv",
+      "results/optimization/runs/f0dbecc6655d69da6dbb/historia.csv"
+    ],
+    "environment": "Misma máquina y entorno virtual; ejecución desde copia limpia de código e instantánea cruda. No prueba portabilidad a otro sistema."
+  }
+}

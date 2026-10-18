@@ -1,0 +1,65 @@
+{
+  "selected_configuration": {
+    "population": 60,
+    "mutation": 0.023809523809523808,
+    "crossover": 0.7
+  },
+  "selection_steps": [
+    {
+      "parameter": "population",
+      "selected": 60,
+      "reason": "Mayor media de HV; desempate por menor desviacion y menor valor."
+    },
+    {
+      "parameter": "mutation",
+      "selected": 0.023809523809523808,
+      "reason": "Mayor media de HV; desempate por menor desviacion y menor valor."
+    },
+    {
+      "parameter": "crossover",
+      "selected": 0.7,
+      "reason": "Mayor media de HV; desempate por menor desviacion y menor valor."
+    }
+  ],
+  "tuning_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "final_seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "sensitivity_design": "Un factor a la vez, secuencial; no estima interacciones ni garantiza optimo global de parametros.",
+  "paired_mean_difference_percentage_points": 11.602297358151962,
+  "paired_bootstrap_95_percent_interval": [
+    10.028935644980569,
+    12.949087957114108
+  ],
+  "wilcoxon_alternative": "greater: NSGA-II > aleatoria; hipotesis fijada antes de ejecutar",
+  "wilcoxon_pvalue": 0.0009765625,
+  "n_paired_seeds": 10,
+  "scope": "Variabilidad de busqueda en un unico paisaje predicho congelado; no incluye incertidumbre de entrenamiento o medicion.",
+  "per_method": {
+    "Aleatoria": {
+      "mean_hv_percent": 87.31302823904872,
+      "std_hv_percent_ddof1": 1.3164917778814644,
+      "mean_seconds": 0.753636409988394
+    },
+    "NSGA-II": {
+      "mean_hv_percent": 98.91532559720069,
+      "std_hv_percent_ddof1": 1.4450776381288455,
+      "mean_seconds": 1.2334274600027129
+    }
+  }
+}

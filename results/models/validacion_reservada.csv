@@ -1,0 +1,3 @@
+objective,representation,n_features,n_entities,n_train,n_holdout,n_groups,mae_log10,r2_log10,mae_baseline_log10,shared_article_ids_train_holdout,shared_publications_train_holdout
+MIC,ordered,42,1473,1160,313,818,0.3711402142915696,0.26216304075351116,0.433486296425514,0,133
+HC50,ordered,42,199,167,32,112,0.41842988329806075,0.05903647034229542,0.4623944104144614,0,9

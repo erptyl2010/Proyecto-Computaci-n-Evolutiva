@@ -1,0 +1,8 @@
+......                                                                   [100%]
+============================== warnings summary ===============================
+tests/test_core.py: 48 warnings
+  D:\Computaci�n Evolutiva\Proyecto_CE_Peptidos\.venv\Lib\site-packages\pymoo\operators\survival\rank_and_crowding\metrics.py:97: DeprecationWarning: `row_stack` alias is deprecated. Use `np.vstack` directly.
+    dist = np.row_stack([F, np.full(n_obj, np.inf)]) - np.row_stack([np.full(n_obj, -np.inf), F])
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+6 passed, 48 warnings in 4.83s

@@ -1,0 +1,30 @@
+{
+  "spec": {
+    "method": "NSGA-II",
+    "seed": 203,
+    "population": 100,
+    "mutation": 0.047619047619047616,
+    "crossover": 0.9,
+    "budget": 2100,
+    "source_sha256": "a206785d0b49639b9b6308d854a4425f24da2261b206f4c27844d4e727a6005c",
+    "models_sha256": "a63e052b7d2c88bce94d164378fdaec58249500d37f5cc3347009614a764fddd"
+  },
+  "summary": {
+    "method": "NSGA-II",
+    "seed": 203,
+    "population": 100,
+    "mutation": 0.047619047619047616,
+    "crossover": 0.9,
+    "budget": 2100,
+    "unique_evaluations": 2100,
+    "hv_percent": 95.98715231168583,
+    "seconds": 0.824734800029546,
+    "n_front_sequences": 5,
+    "n_front_objective_pairs": 5,
+    "current_fitness_meaning": "Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes."
+  },
+  "sha256": {
+    "historia.csv": "d1b7bbc5156d18d5ba1892f820138d451be080c161af5072a2670f63df4d2e96",
+    "evaluaciones.csv": "cd7dbf181c9e04e2a6bc37b1852dd16a6c236ef2b4259fe40794af0038eb75f4"
+  }
+}

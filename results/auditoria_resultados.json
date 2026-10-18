@@ -1,0 +1,14 @@
+{
+  "raw_files_verified": 4355,
+  "reserved_partitions_and_metrics": "verified",
+  "exhaustive_domain_and_hv": "verified",
+  "unique_runs_verified": 55,
+  "final_pairs_initial_population": "identical_in_each_pair",
+  "candidate_provenance": "observed_in_final_nsga_runs",
+  "repeated_real_run": {
+    "seed": 401,
+    "exact_sequence_order": true,
+    "prediction_atol": 1e-12,
+    "note": "Se excluye el tiempo del requisito de igualdad."
+  }
+}

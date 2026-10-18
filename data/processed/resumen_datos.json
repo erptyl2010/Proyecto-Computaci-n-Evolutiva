@@ -1,0 +1,23 @@
+{
+  "cohort_api_ids": 4308,
+  "measurements_audited": 51867,
+  "accepted_measurements": {
+    "MIC": 2069,
+    "HC50": 202
+  },
+  "chemical_entities": {
+    "MIC": 1473,
+    "HC50": 199
+  },
+  "exclusion_reasons": {
+    "otro_objetivo_biologico": 35378,
+    "unidad_no_micromolar": 1665,
+    "otra_medida": 3134,
+    "quimica_no_representada": 7457,
+    "concentracion_no_puntual_positiva": 906,
+    "terminal_no_representado": 1056
+  },
+  "aggregation": "Mediana de mediciones puntuales por secuencia y anotaciones terminales, combinando IDs equivalentes. Las condiciones no se armonizan.",
+  "scope": "Todos los IDs devueltos por el filtro declarado. HC50 se extrae de esta misma cohorte; no reproduce el conjunto historico de 181/153 registros.",
+  "reference_mapping": "article_ids_all incluye todos los articulos de la ficha. reference_raw conserva la referencia de la medicion; no se asume una correspondencia no verificada."
+}

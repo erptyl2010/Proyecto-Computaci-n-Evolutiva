@@ -1,0 +1,10 @@
+{
+  "seed": 20261017,
+  "outer": "GroupShuffleSplit 20% de grupos, una particion reservada",
+  "inner": "GroupKFold 5 pliegues solo en entrenamiento; menor MAE elige representacion",
+  "grouping": "Componentes transitivas, igual longitud, Hamming <=2; no elimina toda homologia ni separa por publicacion",
+  "scope": "Prueba interna reservada de la misma cohorte; no validacion biologica de variantes ni validacion externa",
+  "publication_audit": "Coincidencia de titulo normalizado y anio entre todos los articulos de las fichas; los IDs internos distintos no garantizan publicaciones distintas. No verifica la atribucion de cada medicion.",
+  "fit_after_selection": "Solo entrenamiento. No se reentrena con los casos reservados antes de optimizar.",
+  "model_sha256": "a63e052b7d2c88bce94d164378fdaec58249500d37f5cc3347009614a764fddd"
+}

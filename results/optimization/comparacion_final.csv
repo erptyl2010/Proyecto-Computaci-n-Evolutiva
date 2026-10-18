@@ -1,0 +1,21 @@
+method,seed,population,mutation,crossover,budget,unique_evaluations,hv_percent,seconds,n_front_sequences,n_front_objective_pairs,current_fitness_meaning,run_id
+NSGA-II,401,60,0.023809523809523808,0.7,2100,2100,99.3204175938698,1.1955104999942705,7,7,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,ade60f4f0322f911a2a1
+Aleatoria,401,60,0.023809523809523808,0.7,2100,2100,85.5896938879429,0.701996199961286,6,6,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,b61c246efb1a09433a79
+Aleatoria,402,60,0.023809523809523808,0.7,2100,2100,87.10748796150772,0.7220885999849997,10,10,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,6a3a25ad0dcc9a478ac8
+NSGA-II,402,60,0.023809523809523808,0.7,2100,2100,99.989448999476,1.2142410000087693,6,6,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,f31101d6d068961b8631
+NSGA-II,403,60,0.023809523809523808,0.7,2100,2100,99.52989272265468,1.4167344000306912,4,4,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,4671c62b8234bb3286c1
+Aleatoria,403,60,0.023809523809523808,0.7,2100,2100,87.26077935269757,0.731161100033205,5,5,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,f84507458d54dc3dd9f2
+Aleatoria,404,60,0.023809523809523808,0.7,2100,2100,86.71612770837362,0.7497757999808528,7,7,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,60b5a4f5c2ec0bafcfa9
+NSGA-II,404,60,0.023809523809523808,0.7,2100,2100,99.989448999476,1.3463551999884658,6,6,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,001fae77c5e2156128d7
+NSGA-II,405,60,0.023809523809523808,0.7,2100,2100,99.46272089711712,1.2643068000325002,4,4,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,a4271555a44935497bf3
+Aleatoria,405,60,0.023809523809523808,0.7,2100,2100,85.4642692378005,0.800734199990984,7,7,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,c88b649d33b35ef3176a
+Aleatoria,406,60,0.023809523809523808,0.7,2100,2100,88.61332493129929,0.7882838000077754,8,8,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,d96e48737e7d0324dfc4
+NSGA-II,406,60,0.023809523809523808,0.7,2100,2100,97.36285858324455,1.2347568000550382,5,5,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,2d81cd9dcf2f5473fac3
+NSGA-II,407,60,0.023809523809523808,0.7,2100,2100,99.45208773907575,1.1396219999878667,6,6,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,3050a403cc7f5d5380d9
+Aleatoria,407,60,0.023809523809523808,0.7,2100,2100,88.00386695388096,0.8158303999807686,5,5,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,d6b91e64a3247f533ace
+Aleatoria,408,60,0.023809523809523808,0.7,2100,2100,89.04725154246145,0.7520680999732576,4,4,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,10d003e0b4099fdd725a
+NSGA-II,408,60,0.023809523809523808,0.7,2100,2100,95.37838798300987,1.2026788999792188,4,4,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,e6eb8b848aeaee26273d
+NSGA-II,409,60,0.023809523809523808,0.7,2100,2100,99.5420383596637,1.1360255999607034,5,5,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,2d80f3b718c87be2718d
+Aleatoria,409,60,0.023809523809523808,0.7,2100,2100,86.36225295984285,0.7366882999776863,7,7,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,9e7ece0dcfd16741f970
+Aleatoria,410,60,0.023809523809523808,0.7,2100,2100,88.96522785468039,0.7377375999931246,5,5,Lote aleatorio recien evaluado; no es una poblacion evolutiva.,3b5d1224f8928c452117
+NSGA-II,410,60,0.023809523809523808,0.7,2100,2100,99.12595409441937,1.184043399989605,2,2,Poblacion superviviente; ambos extremos pueden corresponder a individuos diferentes.,f0dbecc6655d69da6dbb
